@@ -4,8 +4,8 @@ This project is a simple website for a car service business, built using HTML, C
 ## Description
 This website serves as a platform for a car service business to showcase its services and allow customers to book appointments online. It includes the following features:
 
-- Homepage: Provides an overview of the services offered and a brief introduction to the business.
-- Services Page: Details the various services provided by the car service center.
+- Home Section: Provides an overview of the services offered and a brief introduction to the business.
+- Services Section: Details the various services provided by the car service center.
 - Appointment Booking: Allows customers to schedule appointments conveniently through a user-friendly interface.
 Contact Page: Displays contact information and a contact form for inquiries.
 
