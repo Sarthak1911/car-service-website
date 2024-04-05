@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+video{
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+}
+header .logo a{
+    font-size: 30px;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 800;
+}
+header .logo a span{
+    color: #00a2ff;
+    font-weight: 800;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li a{
+    margin: 5px 20px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px;
+}
+header nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+/* Content */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.pexels.com/photos/2244746/pexels-photo-2244746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content h2{
+    font-size: 32;
+    padding: 5px;
+    color: white;
+}
+.content p{
+    font-size: 22px;
+    color: white;
+}
+
+/* Menu  */
+
+.whyus{
+    background-color: #110760;
+    width: 100%;
+}
+
+.whyus .whyus-header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.whyus-header h3{
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+.whyus-header h4{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+.whyus .whyus-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    background-color: #404040;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.5) ), url("https://images.pexels.com/photos/1046397/pexels-photo-1046397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.whyus .whyus-content .expert-mechanics, .res-price, .fast-del{
+    width: 250px;
+}
+.whyus .whyus-content .expert-mechanics .expert-mechanics-image img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.whyus .whyus-content .res-price .res-price-image img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.whyus .whyus-content .fast-del .fast-del-image img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.whyus .whyus-content .res-price-body, .expert-mechanics-body, .fast-del-body{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.whyus .whyus-content .res-price-body h2, .expert-mechanics-body h2 , .fast-del-body h2{
+    color: rgb(70, 41, 255);
+}
+
+.whyus .whyus-content .res-price-body label, .expert-mechanics-body label, .fast-del-body label{
+    margin-top: 10px;
+    color: white;
+}
+
+/* shop */
+
+.service{
+    background-color: #000000;
+    width: 100%;
+}
+.service .service-header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-header h3 {
+    color: rgb(0, 140, 255);
+    padding: 10px 30px;
+}
+.service-header h4 {
+    color: rgb(0, 140, 255);
+    padding: 10px 20px;
+}
+.service-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #404040;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    background-image:  url("img/cafe3.jpg");
+    background-size: 200%;
+}
+
+.service-box .card{
+    width: 280px;
+    margin: 20px;
+}
+.service-box .card-image{
+    width: 100%;
+    height: 200px;
+    overflow:hidden;
+    border-radius: 10px;
+    
+}
+.service-box .card-image img:hover {
+    transform: scale(1.1);
+    transition: transform .3s ease-in-out;
+}
+.service-box .card-body{
+    padding: 20px;
+    color: white;
+    border: 3px solid #3b3b3b;
+    border-radius: 10px;
+}
+
+.service-box .card-body h3{
+    padding: 10px 0;
+}
+
+.service-box .card-body .cash{
+    font-size: 22px;
+    margin-left: 90px;
+}
+.card-image img{
+    width:304px;
+    height:304px;
+    object-fit:cover;
+}
+
+/* contact */
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-top: 2px solid #333333;
+}
+.contact .contact-box{
+    flex: 1;
+}
+
+.contact .contact-box .contact-image,
+.contact .contact-box .contact-body{
+    height: 100%;
+}
+.contact img{
+    width: 100%;
+    height: 100%;
+}
+.contact-image img{
+    opacity: 1;
+}
+
+.contact-body{
+    background-color: #404040;
+    height: 100%;
+    border-left: 2px solid #333333;
+}
+
+.contact-body form{
+    padding: 60px 40px;
+    box-sizing: border-box;
+    background-image: url("https://images.pexels.com/photos/1046397/pexels-photo-1046397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size:cover;
+    /* background-position: center bottom; */
+}
+.contact-body h2{
+    color: rgb(255, 0, 0);
+}
+form .form-content{
+    position: relative;
+    margin: 50px 0;
+    border-bottom: 2px solid lightgrey;
+}
+form .form-content input{
+    width: 100%;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 17px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+form .form-content label{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    color: rgb(225, 225, 225);
+    transform: translateY(-50%);
+    font-size: 17px;
+    transition: .5s;
+    pointer-events: none;
+    font-weight: 550;
+}
+form button{
+    border-radius: 30px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Open Sans', sans-serif ;
+    color: white;
+    font-weight: 500;
+    border: none;
+    box-shadow:0px 0px 4px rgb(255, 184, 86) ;
+}
